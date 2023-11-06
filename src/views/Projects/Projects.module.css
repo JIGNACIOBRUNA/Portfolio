@@ -1,0 +1,17 @@
+.ccontenedor{
+    width: 85vw;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+
+.image {
+    display: flex;    
+    background-color: #ce5249;
+    box-shadow: 3px 3px 5px 1px rgb(112, 44, 44);
+    border-radius: 6px;
+    width: 570px;
+    height: 270px; 
+}
