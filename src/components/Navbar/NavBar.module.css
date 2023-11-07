@@ -1,0 +1,32 @@
+.navbar{
+    background-color: rgb(8, 51, 68);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    padding: 5px 10%;
+}
+
+.button a{
+    font-size: 30px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-decoration: none;
+    display: inline-block;
+    padding: 5px 40px;
+    margin-right: 20px; 
+}
+
+.button a:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}
+
+.link{
+    margin: 10px;
+}
+
+.link:hover{
+    transform: scale(1.1);
+    transition: all 0.3s;
+}

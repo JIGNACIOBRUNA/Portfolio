@@ -1,12 +1,15 @@
 import React from "react";
 import arrayProjects from "../../components/ArrayProjects";
 import style from "./Projects.module.css"
+import NavBar from "../../components/Navbar/Navbar";
 
 
 const Projects = () =>{
     return (
         <div>
+            <NavBar/>
             <h1>Proyectos</h1>
+            <a href="/">Home</a>
             <div className={style.contenedor}>
                 {arrayProjects.map((arrayProject, index) => (
                     <div key={index}>

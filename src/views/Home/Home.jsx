@@ -1,16 +1,24 @@
 import React from "react";
 import style from "./Home.module.css";
+import NavBar from "../../components/Navbar/Navbar";
 
 const Home = () =>{
 
    return(
-    <div >
-        <h1>Ignacio Bruna</h1>
-        <h2>Desarrollador Full Stack</h2>
-        <p>¡Hola! Soy Ignacio Bruna, un programador Fullstack con experiencia en desarrollo web y una fuerte preferencia por el Back-end. Actualmente, estoy trabajando en la mejora de los proyectos que desarrollé durante mi formacion</p>
+        <div>
+            <NavBar />
+            <div className={style.container}>
+                <div className={style.header}>
+                    <h1>Ignacio Bruna</h1>
+                    <p>Desarrollador Full Stack</p>
+                </div>
+                <div className={style.centerContent}>
+                    <p>¡Hola! Soy Ignacio Bruna, un apasionado desarrollador Full Stack con experiencia en la creación de soluciones web. Mi enfoque principal se centra en el desarrollo del Back-end, y siempre estoy dispuesto a enfrentar nuevos desafíos y oportunidades</p>
+                </div>
+            </div>
 
-    </div>
-   ) 
+        </div>
+    )
 };
 
 export default Home;
