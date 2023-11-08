@@ -8,14 +8,16 @@ const Projects = () =>{
     return (
         <div>
             <NavBar/>
-            <h1>Proyectos</h1>
-            <a href="/">Home</a>
+            <h1 className={style.title}>Proyectos</h1>
             <div className={style.contenedor}>
                 {arrayProjects.map((arrayProject, index) => (
                     <div key={index}>
-                        <h2>{arrayProject.title}</h2>
+                        <a href={arrayProject.githubUrl} target="_blank" rel="noopener noreferrer">
                         <img className={style.image} src={arrayProject.image} alt= {arrayProject.title}/>
-                        <p>{arrayProject.resume}</p>
+                        </a>
+                        <h2 className={style.text}>{arrayProject.title}</h2>
+                        <p className={style.text}>{arrayProject.resume}</p>
+                        <p className={style.technology}>{arrayProject.technologies}</p>
                     </div>
                 ))}
             </div>
