@@ -1,0 +1,89 @@
+.title{
+    font-size: 35px;
+    color: whitesmoke; 
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+}
+.subtitle{
+    font-size: 35px;
+    color: whitesmoke; 
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 200px;
+}
+.otrotitle{
+    font-size: 35px;
+    color: whitesmoke; 
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 270px; 
+}
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text{
+    font-size: 20px;
+    color: whitesmoke; 
+    font-family: 'Aharoni', sans-serif;
+    text-align: left;
+    margin-top: 10px; 
+}
+
+.image{
+    height: auto;
+    border-radius: 50%;
+}
+
+.column ul {
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center; /* Centra horizontalmente los elementos en el contenedor */
+    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+  }
+  
+  .column ul li {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin: 10px; /* Ajusta el margen entre los elementos según tu preferencia */
+  }
+
+  .contacto{
+    font-size: 20px;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+  }
+  .linkedin{
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: 'Aharoni', sans-serif; 
+    color:#3fa9c4;
+    text-decoration: none;
+  }
+
+  .linkedin:hover{
+    transform: scale(1.1);
+    transition: all 0.3s
+  }
+  
+  .correo{
+    font-size: 25px;
+    margin-top: 25px;
+    font-family: 'Aharoni', sans-serif; 
+    color:#3fa9c4;
+    text-decoration: none;
+    margin-bottom: 200px;
+  }

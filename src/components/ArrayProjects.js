@@ -1,4 +1,4 @@
-import Maintenance from "../images/Enmantencion.png";
+// import Maintenance from "../images/Enmantencion.png";
 import Dogs from "../images/Dogs.jpeg";
 import Food from "../images/Food.jpeg";
 import BonAppetit from "../images/bon appetit.jpeg";
@@ -28,7 +28,8 @@ const arrayProjects = [
         resume: "Una completa solución para la administracion y venta gastronómica que abarca desde e-commerce hasta paneles de control con una amplia gama de funciones, junto con diversas vistas diseñadas para satisfacer las necesidades específicas de los diferentes roles de usuarios",
         technologies: "HTML, CSS, JavaScript, React, Styled-Components, Redux, Firebase, Cloudinary, Axios, Express, Nodejs, Sequelize y PostgreSQL",
         image: BonAppetit,
-        githubUrl: "https://github.com/JIGNACIOBRUNA/BonAppetit"
+        githubUrl: "https://github.com/JIGNACIOBRUNA/BonAppetit",
+        deploy: "https://bonappetite.vercel.app/customer/"
 
     }
 ]

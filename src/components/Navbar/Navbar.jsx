@@ -11,7 +11,7 @@ const NavBar = () => {
             <div className={style.button}>
                 <Link to="/">Home</Link>
                 <Link to="/projects">Project</Link>
-                <Link to="/about">About me</Link>
+                <Link to="/about">About</Link>
             </div>
             <div>
                 <a href="https://www.linkedin.com/in/jose-ignacio-bruna-b6a437213/" target="_blank" rel="noopener noreferrer">

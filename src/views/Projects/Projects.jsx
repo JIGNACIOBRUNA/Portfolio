@@ -18,6 +18,11 @@ const Projects = () =>{
                         <h2 className={style.text}>{arrayProject.title}</h2>
                         <p className={style.text}>{arrayProject.resume}</p>
                         <p className={style.technology}>{arrayProject.technologies}</p>
+                        {arrayProject.deploy && (
+                            <a href={arrayProject.deploy} target="_blank" rel="noopener noreferrer">
+                                <h3 className={style.deploy}>Deploy</h3>
+                            </a>
+                        )}
                     </div>
                 ))}
             </div>
