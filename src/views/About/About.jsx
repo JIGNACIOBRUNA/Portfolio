@@ -52,8 +52,8 @@ const About = () => {
                 <h1 className={style.otrotitle}>Contacto</h1>
                 <div className={style.contacto}>
                 <p>Si te interesa que trabajemos juntos me puedes contactar en:</p>
-                <a href="https://www.linkedin.com/in/jose-ignacio-bruna-b6a437213/" target="_blank" rel="noopener noreferrer">
-                    <h3 className={style.linkedin}>Linkedin</h3>
+                <a href="https://www.linkedin.com/in/jose-ignacio-bruna-b6a437213/" target="_blank" rel="noopener noreferrer" className={style.linkedin}>
+                    <h3>Linkedin</h3>
                 </a>
                 <p className={style.contacto}>O en mi correo:</p>
                 <h3 className={style.correo}>brunacordova95@gmail.com</h3>

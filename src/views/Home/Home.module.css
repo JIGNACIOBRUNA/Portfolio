@@ -11,8 +11,8 @@
 
   .header {
     font-family: 'Aharoni', sans-serif;
-    align-self: flex-start;
-    text-align: left;
+    align-self: center;
+    text-align: center;
     margin: 0;
     padding: 0;
   }
@@ -27,6 +27,7 @@
   }
 
   .centerContent {
+    color: #127791;
     height: 100%;
     text-align: center;
     font-family: 'Aharoni', sans-serif;
