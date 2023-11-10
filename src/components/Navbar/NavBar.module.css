@@ -1,32 +1,56 @@
-.navbar{
-    background-color: rgb(8, 51, 68);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 85px;
-    padding: 5px 10%;
+@media (min-width: 769px) {
+    .navbar {
+        background-color: rgb(8, 51, 68);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 10%;
+    }
+
+    .button a {
+        font-size: 30px;
+        color: whitesmoke;
+        font-family: 'Aharoni', sans-serif;
+        text-decoration: none;
+        display: inline-block;
+        padding: 5px 40px;
+        margin-right: 20px;
+    }
+
+    .button a:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
+    .link {
+        margin: 10px;
+    }
+
+    .link:hover {
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
 }
 
-.button a{
-    font-size: 30px;
-    color: whitesmoke;
-    font-family: 'Aharoni', sans-serif;
-    text-decoration: none;
-    display: inline-block;
-    padding: 5px 40px;
-    margin-right: 20px; 
-}
+@media (max-width: 768px) {
 
-.button a:hover{
-    transform: scale(1.1);
-    transition: all 0.3s;
-}
+    .navbar {
+        background-color: rgb(8, 51, 68);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 85px;
+        padding: 5px 10%;
+    }
 
-.link{
-    margin: 10px;
-}
-
-.link:hover{
-    transform: scale(1.1);
-    transition: all 0.3s;
+    .button a{
+        font-size: 15px;
+        color: whitesmoke;
+        font-family: 'Aharoni', sans-serif;
+        text-decoration: none;
+        padding: 5px 15px;
+        margin-right: 5px; 
+    }
 }

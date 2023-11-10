@@ -1,89 +1,186 @@
-.title{
+@media (min-width: 769px) {
+  .title {
     font-size: 35px;
-    color: whitesmoke; 
+    color: whitesmoke;
     font-family: 'Aharoni', sans-serif;
     text-align: center;
     margin-top: 30px;
-}
-.subtitle{
+  }
+
+  .subtitle {
     font-size: 35px;
-    color: whitesmoke; 
+    color: whitesmoke;
     font-family: 'Aharoni', sans-serif;
     text-align: center;
     margin-top: 200px;
-}
-.otrotitle{
+  }
+
+  .otrotitle {
     font-size: 35px;
-    color: whitesmoke; 
+    color: whitesmoke;
     font-family: 'Aharoni', sans-serif;
     text-align: center;
-    margin-top: 270px; 
-}
-.container{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 20px;
-  max-width: 1200px;
-  margin: 0 auto;
-}
+    margin-top: 270px;
+  }
 
-.text{
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+  .text {
     font-size: 20px;
-    color: whitesmoke; 
+    color: whitesmoke;
     font-family: 'Aharoni', sans-serif;
     text-align: left;
-    margin-top: 10px; 
-}
+    margin-top: 10px;
+  }
 
-.image{
+  .image {
     height: auto;
     border-radius: 50%;
-}
+  }
 
-.column ul {
-    list-style-type: none; /* Elimina los puntos de la lista */
+  .column ul {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
     padding: 0;
     display: flex;
     flex-wrap: wrap;
     margin-top: 30px;
-    justify-content: center; /* Centra horizontalmente los elementos en el contenedor */
-    align-items: center; /* Centra verticalmente los elementos en el contenedor */
+    justify-content: center;
+    /* Centra horizontalmente los elementos en el contenedor */
+    align-items: center;
+    /* Centra verticalmente los elementos en el contenedor */
   }
-  
+
   .column ul li {
     font-size: 20px;
     color: whitesmoke;
     font-family: 'Aharoni', sans-serif;
     text-align: center;
-    margin: 10px; /* Ajusta el margen entre los elementos según tu preferencia */
+    margin: 10px;
+    /* Ajusta el margen entre los elementos según tu preferencia */
   }
 
-  .contacto{
+  .contacto {
     font-size: 20px;
     margin-top: 30px;
     color: whitesmoke;
     font-family: 'Aharoni', sans-serif;
     text-align: center;
   }
-  .linkedin{
+
+  .linkedin {
     font-size: 25px;
     margin-top: 25px;
-    font-family: 'Aharoni', sans-serif; 
-    color:#3fa9c4;
+    font-family: 'Aharoni', sans-serif;
+    color: #3fa9c4;
     text-decoration: none;
   }
 
-  .linkedin:hover{
+  .linkedin:hover {
     transform: scale(1.1);
     transition: all 0.3s
   }
-  
-  .correo{
+
+  .correo {
     font-size: 25px;
     margin-top: 25px;
-    font-family: 'Aharoni', sans-serif; 
-    color:#3fa9c4;
+    font-family: 'Aharoni', sans-serif;
+    color: #3fa9c4;
     text-decoration: none;
     margin-bottom: 200px;
   }
+
+}
+
+@media (max-width: 768px) {
+  .title {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .text {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .image {
+    display: none;
+  }
+
+  .subtitle {
+    font-size: 35px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 70px;
+  }
+
+  .otrotitle {
+    font-size: 40px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin-top: 250px;
+  }
+
+  .column ul {
+    list-style-type: none;
+    /* Elimina los puntos de la lista */
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: center;
+    /* Centra horizontalmente los elementos en el contenedor */
+    align-items: center;
+    /* Centra verticalmente los elementos en el contenedor */
+  }
+
+  .column ul li {
+    font-size: 20px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+    margin: 10px;
+    /* Ajusta el margen entre los elementos según tu preferencia */
+  }
+
+  .contacto {
+    font-size: 20px;
+    margin-top: 30px;
+    color: whitesmoke;
+    font-family: 'Aharoni', sans-serif;
+    text-align: center;
+  }
+
+  .linkedin {
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: 'Aharoni', sans-serif;
+    color: #3fa9c4;
+    text-decoration: none;
+  }
+
+  .correo {
+    font-size: 25px;
+    margin-top: 5px;
+    font-family: 'Aharoni', sans-serif;
+    color: #3fa9c4;
+    text-decoration: none;
+    margin-bottom: 200px;
+  }
+
+}
