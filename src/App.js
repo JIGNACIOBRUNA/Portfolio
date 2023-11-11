@@ -6,7 +6,7 @@ import React /*{useState}*/  from "react";
 function App() {
   // const [darkMode, setDarkMode] = useState(false);
 
-  // const toggleDarkMode = () => {
+  // const toggleDarkMode = () => 
   //   setDarkMode(!darkMode);
   // };
 
@@ -17,7 +17,7 @@ function App() {
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route exact path="/projects" element={<Projects />}></Route>
-        <Route path="/assets/cvdeveloper.pdf" element={<CV />} />
+        <Route path="cv" element={<CV />} />
 
       </Routes>
     </div>

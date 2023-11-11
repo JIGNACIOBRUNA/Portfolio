@@ -7,7 +7,7 @@ import curriculum from "../../images/curriculum.png";
 
 
 const openCV = () => {
-    window.open("../assets/cvdeveloper.pdf", '_blank');
+    window.open("https://raw.githubusercontent.com/JIGNACIOBRUNA/Portfolio/main/src/components/assets/cvdeveloper.pdf", '_blank');
   };
 
 const NavBar = () => {
