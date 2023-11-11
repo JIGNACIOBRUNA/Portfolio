@@ -3,6 +3,12 @@ import { Link } from "react-router-dom";
 import style from "./NavBar.module.css";
 import linkedin from "../../images/linkedin.png";
 import github from "../../images/github.png";
+import curriculum from "../../images/curriculum.png"; 
+
+
+const openCV = () => {
+    window.open("../assets/CV DEVELOPER.pdf", '_blank');
+  };
 
 const NavBar = () => {
 
@@ -20,6 +26,9 @@ const NavBar = () => {
                 <a href="https://github.com/JIGNACIOBRUNA" target="_blank" rel="noopener noreferrer">
                     <img src={github} alt="Github" className={style.link} />
                 </a>
+                <button className={style.custom} onClick={openCV}>
+                    <img src={curriculum} alt="Curriculum" className={style.link} /> 
+                </button>
             </div>
         </nav>
     )

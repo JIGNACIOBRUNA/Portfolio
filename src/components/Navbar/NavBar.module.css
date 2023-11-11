@@ -32,6 +32,17 @@
         transition: all 0.3s;
     }
 
+    .custom{
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+
+    .custom:hover{
+        transform: scale(1.1);
+        transition: all 0.3s;
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -46,11 +57,17 @@
     }
 
     .button a{
-        font-size: 15px;
+        font-size: 16px;
         color: whitesmoke;
         font-family: 'Aharoni', sans-serif;
         text-decoration: none;
-        padding: 5px 15px;
-        margin-right: 5px; 
+        padding: 2px 8px;
+        margin-right: 2px; 
+    }
+
+    .custom{
+        background: none;
+        border: none;
+        cursor: pointer;
     }
 }
