@@ -2,6 +2,20 @@ import React from "react";
 import NavBar from "../../components/Navbar/Navbar";
 import style from "./About.module.css";
 import image from "../../images/yo.jpeg";
+import javascript from "../../images/js.png";
+import html from "../../images/html.png";
+import css from "../../images/css.png";
+import github from "../../images/github2.png";
+import piton from "../../images/piton.png";
+import imgreact from "../../images/react.png";
+import nodejs from "../../images/nodejs.png";
+import postgresql from "../../images/postgresql.png";
+import sequelize from "../../images/sequelize.png";
+import reduxx from "../../images/redux.png";
+import expresss from "../../images/express.png"
+import typescript from "../../images/typescript.png";
+import mongodbb from "../../images/mongodb.png";
+import reactnative from "../../images/reactnative.png";
 
 const About = () => {
     return (
@@ -24,16 +38,16 @@ const About = () => {
                 <h1 className={style.subtitle}>Lenguajes y Frameworks</h1>
                 <div className={style.column}>
                     <ul>
-                        <li>Javascript</li>
-                        <li>React</li>
-                        <li>Redux</li>
-                        <li>NodeJs</li>
-                        <li>Sequelize</li>
-                        <li>Express</li>
-                        <li>PostgreSQL</li>
-                        <li>HTML</li>
-                        <li>CSS</li>
-                        <li>Git</li>
+                        <li><img src={javascript} alt={javascript} /></li>
+                        <li><img src={imgreact} alt={imgreact}/></li>
+                        <li><img src={reduxx} alt={reduxx}/></li>
+                        <li><img src={nodejs} alt={nodejs}/></li>
+                        <li>< img src={sequelize} alt={sequelize}/></li>
+                        <li><img src={expresss} alt={expresss}/></li>
+                        <li><img src={postgresql} alt={postgresql}/></li>
+                        <li><img src={html} alt={html}/></li>
+                        <li><img src={css} alt={css}/></li>
+                        <li><img src={github} alt={github}/></li>
                     </ul>
                 </div>
             </div>
@@ -41,10 +55,10 @@ const About = () => {
                 <h1 className={style.subtitle}>Tecnologias en aprendizaje </h1>
                 <div className={style.column}>
                     <ul>
-                        <li>Phyton</li>
-                        <li>TypeScript</li>
-                        <li>React Native</li>
-                        <li>MongoDB</li>
+                        <li><img src={piton} alt={piton}/></li>
+                        <li>< img src={typescript} alt={typescript}/></li>
+                        <li>< img src={reactnative} alt={reactnative} className={style.reactN}/></li>
+                        <li><img src={mongodbb} alt={mongodbb}/></li>
                     </ul>
                 </div>
             </div>

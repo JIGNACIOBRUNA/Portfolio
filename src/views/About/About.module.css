@@ -97,6 +97,11 @@
     margin-bottom: 200px;
   }
 
+  .reactN{
+    height: 70px; 
+    width: auto;
+  }
+
 }
 
 @media (max-width: 768px) {
@@ -181,6 +186,11 @@
     color: #3fa9c4;
     text-decoration: none;
     margin-bottom: 200px;
+  }
+
+  .reactN{
+    height: 70px; 
+    width: auto;
   }
 
 }
