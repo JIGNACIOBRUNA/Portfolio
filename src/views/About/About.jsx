@@ -16,6 +16,7 @@ import expresss from "../../images/express.png"
 import typescript from "../../images/typescript.png";
 import mongodbb from "../../images/mongodb.png";
 import reactnative from "../../images/reactnative.png";
+import aws from "../../images/aws.png";
 
 const About = () => {
     return (
@@ -59,6 +60,7 @@ const About = () => {
                         <li>< img src={typescript} alt={typescript}/></li>
                         <li>< img src={reactnative} alt={reactnative} className={style.reactN}/></li>
                         <li><img src={mongodbb} alt={mongodbb}/></li>
+                        <li><img src={aws} alt={aws} /></li>
                     </ul>
                 </div>
             </div>
