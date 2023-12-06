@@ -14,7 +14,8 @@ const arrayProjects = [
         resume: "Esta aplicación fue desarrollada como parte de mi evaluación individual en mi formacion como desarrollador, permite a los usuarios crear nuevas razas de perros, realizar búsquedas por nombre y aplicar diversos filtros.",
         technologies: "JavaScript, Redux, React, Node.js, Express, Sequelize, PostgreSQL, HTML y CSS.",
         image: Dogs,
-        githubUrl: "https://github.com/JIGNACIOBRUNA/PI-DOGS "
+        githubUrl: "https://github.com/JIGNACIOBRUNA/PI-DOGS ",
+        deploy: "https://6570e644ae3917000861c95f--kaleidoscopic-zuccutto-cbd236.netlify.app/"
     },
     {
         title: "Food",
