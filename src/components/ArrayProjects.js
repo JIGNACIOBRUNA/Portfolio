@@ -1,14 +1,16 @@
-// import Maintenance from "../images/Enmantencion.png";
+import RYM from "../images/RYM.jpeg";
 import Dogs from "../images/Dogs.jpeg";
 import Food from "../images/Food.jpeg";
 import BonAppetit from "../images/bon appetit.jpeg";
 
 const arrayProjects = [
-    // { 
-    //     title: "Rick and Morty",
-    //     resume: "Es mi primera aplicacion creada en el proceso de mi formacion",
-    //     image: Maintenance
-    // },
+    { 
+        title: "Rick and Morty",
+        resume: "Es mi primera aplicacion creada en el proceso de mi formacion como desarrollador, tiene la funcionalidad de agregar cartas segun su Id, ver el detalle de estas, agregar a favoritos y aplicar filtros por nombre y especie",
+        technologies: "JavaScript, HTML, CSS, React, NodeJs",
+        image: RYM,
+        githubUrl: "https://github.com/JIGNACIOBRUNA/rick-and-morty"
+    },
     {
         title: "PI Dogs",
         resume: "Esta aplicación fue desarrollada como parte de mi evaluación individual en mi formacion como desarrollador, permite a los usuarios crear nuevas razas de perros, realizar búsquedas por nombre y aplicar diversos filtros.",
