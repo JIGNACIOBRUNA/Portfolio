@@ -9,7 +9,8 @@ const arrayProjects = [
         resume: "Es mi primera aplicacion creada en el proceso de mi formacion como desarrollador, tiene la funcionalidad de agregar cartas segun su Id, ver el detalle de estas, agregar a favoritos y aplicar filtros por nombre y especie",
         technologies: "JavaScript, HTML, CSS, React, NodeJs",
         image: RYM,
-        githubUrl: "https://github.com/JIGNACIOBRUNA/rick-and-morty"
+        githubUrl: "https://github.com/JIGNACIOBRUNA/rick-and-morty",
+        deploy: "https://65ccfc12334ee90008c8da5a--astonishing-yeot-1ff336.netlify.app/"
     },
     {
         title: "PI Dogs",
