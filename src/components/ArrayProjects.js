@@ -10,7 +10,7 @@ const arrayProjects = [
         technologies: "JavaScript, HTML, CSS, React, NodeJs",
         image: RYM,
         githubUrl: "https://github.com/JIGNACIOBRUNA/rick-and-morty",
-        deploy: "https://65ccfc12334ee90008c8da5a--astonishing-yeot-1ff336.netlify.app/"
+        deploy: "https://astonishing-yeot-1ff336.netlify.app/"
     },
     {
         title: "PI Dogs",
