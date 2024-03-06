@@ -18,7 +18,7 @@ const arrayProjects = [
         technologies: "JavaScript, Redux, React, Node.js, Express, Sequelize, PostgreSQL, HTML y CSS.",
         image: Dogs,
         githubUrl: "https://github.com/JIGNACIOBRUNA/PI-DOGS ",
-        deploy: "https://6570e644ae3917000861c95f--kaleidoscopic-zuccutto-cbd236.netlify.app/"
+        deploy: "https://kaleidoscopic-zuccutto-cbd236.netlify.app/"
     },
     {
         title: "Food",
